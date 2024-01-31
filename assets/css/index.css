@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  text-align: center;
+  padding-block: 3%;
+  font-size: 50px;
+  color: lightcoral;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  margin-inline: auto;
+  width: 257px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.btn-input {
+  margin-block-start: 20px;
+  display: block;
+  margin-inline: auto;
+  border-radius: 7px;
+  background-color: cyan;
+  color: black;
+  cursor: pointer;
+  width: 100px;
+  height: 47px;
+  font-weight: bold;
+}
+
+body div h3 {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 32px;
+  color: dimgrey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.task-list ol {
+  text-align: center;
+  list-style: none;
+}
+
+.li-list-task {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.li-list-task button {
+  margin-inline-start: 3%;
+  padding-inline: 2%;
+  height: 28px;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
